@@ -1,0 +1,143 @@
+
+
+.cart1{
+    width: 85%;
+    margin: auto;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    padding: 3px;
+    margin-top: 10px;
+
+}
+
+#cartimg{
+    width: 85%;
+    margin: auto;
+    /* border: 1px solid blue; */
+    margin-top: 10px;
+    height: 250px;
+}
+
+#cartimg img{
+    width: 100%;
+    height: 100%;
+}
+
+.cart1 div:nth-child(1){
+    /* border: 1px solid red; */
+    width: 33%;
+    display: flex;
+}
+
+.cart1 div:nth-child(2){
+    width: 33%;
+    /* border: 1px solid gray; */
+    display: flex;
+    justify-content: space-around;
+}
+
+p{
+    margin-top: -2px;
+}
+
+.refr{
+    text-decoration: none;
+    color: black;
+}
+
+button{
+    cursor: pointer;
+    /* border-radius: 15%; */
+
+}
+
+.cart2{
+    width: 85%;
+    margin: auto;
+    /* border: 1px solid blue; */
+    display: flex; 
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.cart2 div span{
+    /* border: 1px solid black; */
+    margin-left: 5px;
+}
+
+.cart3{
+    border: 2px solid #81bb3a;
+    width: 85%;
+    margin: auto;
+}
+
+.cartline{
+    border: 1px solid lightgrey;
+    width: 85%;
+    margin: auto;
+}
+
+.shopping{
+    border: 2px solid #81bb3a;
+    background: #fff;
+    border-radius: 5%;
+}
+
+.checkout{
+    border: none;
+    background: #81bb3a;
+    color: #fff;
+}
+
+#cart-container, .cart-item{
+    width: 85%;
+    margin: auto;
+    border: 1px solid black;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    justify-content: center;
+    gap: 15px;
+    border-radius: 5px;
+}
+
+.img_desc{
+    display: flex;
+}
+
+.cart-img{
+    width: 20%;
+    margin: 5px;
+}
+
+.cart-quantity{
+    width: 2.4rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.cart-price{
+    font-weight: 500;
+    /* text-align: center; */
+}
+
+.cart-remove{
+    cursor: pointer;
+}
+
+.total-price{
+    font-size: 1rem;
+}
+
+.text-center{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cart-item{
+    display: flex;
+    border: 2px solid #212529;
+    
+}

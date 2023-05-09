@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="./styles/products.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>   
+    <!-- <div>
+        <input type="text" id="query">
+        <button id="Tsearch">Search</button>
+    </div> -->
+    <div>
+        <nav id="navbar-1"></nav>
+    </div>
+    <main>
+    <div id="container">
+
+        <div id="fixed-content">
+          <h2 style="margin-left:16px ;">FILTERS</h2>
+          <div id="buttons">
+            <button id="fruits">Fruits</button>
+          <button id="exFruits">Exotic Fruits</button>
+          <button id="vegies">Vagitables</button>
+          <button id="exVegies">Exotic Vagitables</button>
+          <button id="apple">Apples</button>
+          <button id="orange">Oranges</button>
+          <button id="potato">Potato</button>
+          <button>Tomato</button>
+          <button>Cucumber</button>
+          <button>Good</button>
+          <button>Bad</button>
+          </div>
+        </div>
+        <div id="products">
+            <!-- <div>
+                <div class="image">
+               <img src="https://www.jiomart.com/images/product/150x150/590004487/apple-indian-6-pcs-pack-approx-750-g-950-g-product-images-o590004487-p590004487-0-202203170227.jpg" alt="">
+                </div>
+              <div>
+                  <p>HA TAPIOCA FLOUR 400G</p>
+                  <button id="priceBtn"><s>MRP &#8377 210</s></button>
+                  <button id="priceBtn2"> &#8377 210</button>
+                  <button id="addBtn">ADD</button>
+              </div>
+          </div>
+          <div>
+                <div class="image">
+               <img src="https://www.jiomart.com/images/product/150x150/590000070/pineapple-queen-1-pc-approx-700-g-1200-g-product-images-o590000070-p590000070-0-202203170357.jpg" alt="">
+                </div>
+              <div>
+                  <p>Kwality Wall's Ice Cream - Magnum C..</p>
+                  <button id="priceBtn"><s>MRP &#8377 210</s></button>
+                  <button id="priceBtn2">&#8377 90</button>
+                  <button id="addBtn">ADD</button>
+              </div>
+          </div>
+          <div>
+                <div class="image">
+               <img src="https://www.jiomart.com/images/product/150x150/590001247/papaya-each-approx-800-g-1600-g-product-images-o590001247-p590001247-0-202203170247.jpg" alt="">
+                </div>
+              <div>
+                  <p>Rajma Chitra Organic - Organic Tatt..</p>
+                  <button id="priceBtn"><s>MRP &#8377 184</s></button>
+                  <button id="priceBtn2">&#8377 160</button>
+                  <button id="addBtn">ADD</button>
+              </div>
+          </div>
+          <div>
+                <div class="image">
+               <img src="https://www.jiomart.com/images/product/150x150/590001738/orange-6-pcs-pack-approx-750-g-900-g-product-images-o590001738-p590034369-0-202203150755.jpg" alt="">
+                </div>
+              <div>
+                  <p>HA ORGANIC MOONG DAL YELLOW</p>
+                  <button id="priceBtn"><s>MRP &#8377 210</s></button>
+                  <button id="priceBtn2">&#8377 149</button>
+                  <button id="addBtn">ADD</button>
+              </div>
+          </div>
+          <div>
+                <div class="image">
+               <img src="https://www.jiomart.com/images/product/150x150/590000695/sweet-tamarind-approx-240-g-260-g-product-images-o590000695-p590000695-0-202203150919.jpg" alt="">
+                </div>
+              <div>
+                  <p>RAW PRESSERY 100% ORANGE JUICE</p>
+                  <button id="priceBtn"><s>MRP &#8377 210</s></button>
+                  <button id="priceBtn2">&#8377 80</button>
+                  <button id="addBtn">ADD</button>
+              </div>
+          </div>
+          <div>
+                <div class="image">
+               <img src="https://www.jiomart.com/images/product/150x150/590001569/kiwi-green-zespri-3-pcs-pack-approx-240-g-300-g-product-images-o590001569-p590034325-0-202203150039.jpg" alt="">
+                </div>
+              <div>
+                  <p>Organic Masoor Malka Split - Health..</p>
+                  <button id="priceBtn"><s>MRP &#8377 145</s></button>
+                  <button id="priceBtn2">&#8377 130</button>
+                  <button id="addBtn">ADD</button>
+              </div>
+          </div>
+          <div>
+                <div class="image">
+               <img src="https://www.jiomart.com/images/product/150x150/590001721/apple-red-delicious-4-pcs-approx-550-g-700-g-product-images-o590001721-p590001721-0-202203152235.jpg" alt="">
+                </div>
+              <div>
+                  <p>ON1Y PAPRIKA POWDER 52G</p>
+                  <button id="priceBtn"><s>MRP &#8377 104</s></button>
+                  <button id="priceBtn2">&#8377 74</button>
+                  <button id="addBtn">ADD</button>
+              </div>
+          </div>
+          <div>
+                <div class="image">
+               <img src="https://www.jiomart.com/images/product/150x150/590001270/pears-green-imported-3-pcs-pack-product-images-o590001270-p590040932-0-202203170454.jpg" alt="">
+                </div>
+              <div>
+                  <p>ON1Y PAPRIKA POWDER 52G</p>
+                  <button id="priceBtn"><s>MRP &#8377 104</s></button>
+                  <button id="priceBtn2">&#8377 74</button>
+                  <button id="addBtn">ADD</button>
+              </div>
+          </div>
+          <div>
+                <div class="image">
+               <img src="https://www.jiomart.com/images/product/150x150/590003435/thai-guava-2-pcs-approx-550-g-700-g-product-images-o590003435-p590034336-0-202203170244.jpg" alt="">
+                </div>
+              <div>
+                  <p>ON1Y PAPRIKA POWDER 52G</p>
+                  <button id="priceBtn"><s>MRP &#8377 104</s></button>
+                  <button id="priceBtn2">&#8377 74</button>
+                  <button id="addBtn">ADD</button>
+              </div>
+          </div>
+          <div>
+                <div class="image">
+               <img src="https://www.jiomart.com/images/product/150x150/590006806/mosambi-3-kg-pack-product-images-o590006806-p590032918-0-202203150754.jpg" alt="">
+                </div>
+              <div>
+                  <p>ON1Y PAPRIKA POWDER 52G</p>
+                  <button id="priceBtn"><s>MRP &#8377 104</s></button>
+                  <button id="priceBtn2">&#8377 74</button>
+                  <button id="addBtn">ADD</button>
+              </div>
+          </div>
+          <div>
+                <div class="image">
+               <img src="https://www.jiomart.com/images/product/150x150/590001265/watermelon-kiran-1-pc-approx-2300-g-3000-g-product-images-o590001265-p590041413-0-202203142036.jpg" alt="">
+                </div>
+              <div>
+                  <p>ON1Y PAPRIKA POWDER 52G</p>
+                  <button id="priceBtn"><s>MRP &#8377 104</s></button>
+                  <button id="priceBtn2">&#8377 74</button>
+                  <button id="addBtn">ADD</button>
+              </div>
+          </div>
+          <div>
+                <div class="image">
+               <img src="https://www.jiomart.com/images/product/150x150/590003662/green-capsicum-500-g-product-images-o590003662-p590003662-0-202203151617.jpg" alt="">
+                </div>
+              <div>
+                  <p>ON1Y PAPRIKA POWDER 52G</p>
+                  <button id="priceBtn"><s>MRP &#8377 104</s></button>
+                  <button id="priceBtn2">&#8377 74</button>
+                  <button id="addBtn">ADD</button>
+              </div>
+          </div>
+          <div>
+                <div class="image">
+               <img src="https://www.jiomart.com/images/product/150x150/590003537/cauliflower-1-pc-approx-600-g-1000-g-product-images-o590003537-p590003537-0-202203170515.jpg" alt="">
+                </div>
+              <div>
+                  <p>ON1Y PAPRIKA POWDER 52G</p>
+                  <button id="priceBtn"><s>MRP &#8377 104</s></button>
+                  <button id="priceBtn2">&#8377 74</button>
+                  <button id="addBtn">ADD</button>
+              </div>
+          </div>
+          <div>
+                <div class="image">
+               <img src="https://www.jiomart.com/images/product/150x150/590001788/potato-low-sugar-2-kg-product-images-o590001788-p590001788-0-202207272007.jpg" alt="">
+                </div>
+              <div>
+                  <p>ON1Y PAPRIKA POWDER 52G</p>
+                  <button id="priceBtn"><s>MRP &#8377 104</s></button>
+                  <button id="priceBtn2">&#8377 74</button>
+                  <button id="addBtn">ADD</button>
+              </div>
+          </div>
+          <div>
+                <div class="image">
+               <img src="https://www.jiomart.com/images/product/150x150/590003546/carrot-orange-500-g-product-images-o590003546-p590003546-0-202203151011.jpg" alt="">
+                </div>
+              <div>
+                  <p>ON1Y PAPRIKA POWDER 52G</p>
+                  <button id="priceBtn"><s>MRP &#8377 104</s></button>
+                  <button id="priceBtn2">&#8377 74</button>
+                  <button id="addBtn">ADD</button>
+              </div>
+          </div>
+          <div>
+                <div class="image">
+               <img src="https://www.jiomart.com/images/product/150x150/590003540/beetroot-500-g-product-images-o590003540-p590003540-0-202203141904.jpg" alt="">
+                </div>
+              <div>
+                  <p>ON1Y PAPRIKA POWDER 52G</p>
+                  <button id="priceBtn"><s>MRP &#8377 104</s></button>
+                  <button id="priceBtn2">&#8377 74</button>
+                  <button id="addBtn">ADD</button>
+              </div>
+          </div> -->
+          
+        </div>
+    </div>
+</main>
+    <footer></footer>
+    
+</body>
+</html>
+<script src="./scripts/sample.js" type="module"></script>
+<script src="./scripts/products.js" type="module"></script>
+<script src="./scripts/footer.js" type="module"></script>

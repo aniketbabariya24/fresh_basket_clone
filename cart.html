@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Cart</title>
+    <link rel="stylesheet" href="./styles/cart.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+</head>
+
+<body>
+    <nav id="navbar-1"></nav>
+
+    <div id="cartimg">
+        <img src="https://i.ibb.co/fvJgTjY/MAIN-Banner.png" alt="">
+    </div>
+
+    <div id="cart">
+        <div class="cart1">
+            <div>
+                <span>MY CART( 2 ITEMS)</span>
+                <p>|</p>
+                <a href="#" id="refresh" class="refr">Refresh</a>
+            </div>
+            <div>
+               <a href="./products.html"> <button class="shopping">CONTINUE SHOPPING</button></a>
+               <a href="./payment.html" id="checkout"> <button class="checkout">PROCEED TO CHECKOUT</button></a>
+            </div>
+        </div>
+
+        <div class="cartline"></div>
+
+        <div class="cart2">
+            <div style="width: 45%;">
+                <span>Name</span>
+            </div>
+            <div style="width: 10%;">
+                <span>Price</span>
+            </div>
+            <div style="width: 10%;">
+                <span>Discount</span>
+            </div>
+            <div style="width: 15%;">
+                <span>Qty</span>
+            </div>
+            <div style="width: 15%;">
+                <span>Sub-Total</span>
+            </div>
+            <div style="width: 5%;">
+                <span>Remove</span>
+            </div>
+        </div>
+
+        <div class="cart3"></div>
+
+        <div id="label" class="text-center"></div>
+        <section id="cart-contaner-1">
+            <div id="cart-container" class="cart-container">
+                <!-- <table width="100%">
+                    <thead>
+                        <tr>
+                            <td>Image</td>
+                            <td>Product Description</td>
+                            <td>Price</td>
+                            <td>Discount</td>
+                            <td>Qty</td>
+                            <td>Sub-Total</td>
+                            <td>Remove</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="detail">
+                            <td ><img src="./img/fresh basket (1)-01.jpeg" alt="" class="cartimg"></td>
+                            <td class="description">Product_Description</td>
+                            <td><span>&#8377;485.00</span></td>
+                            <td><span>&#8377;0.00</span></td>
+                            <td>Qty</td>
+                            <td><span>&#8377;485.00</span></td>
+                            <td><a href="#"><i class="fas fa-trash-alt"></i></a></td>
+                        </tr>
+                    </tbody>
+                </table>  -->
+
+                <div style="width: 45%;" class="img_desc">
+                    <!-- <img src="./img/Fresh_Basket_Logo.jpg" alt="" class="cart-img"> -->
+                    <span>Product_Description</span>
+                </div>
+                <div style="width: 10%;" class="cart-price">
+                    &#8377;130
+                </div>
+                <div style="width: 10%;" class="discount" id="disc">
+                    &#8377;100
+                </div>
+                <div style="width: 15%;" >
+                    <input type="number" value="1" class="cart-quantity number" >
+                </div>
+                <div style="width: 15%;" class="total-price" >
+                    &#8377;0
+                </div>
+                <div style="width: 5%;">
+                    <i class="fas fa-trash-alt cart-remove"></i>
+                </div>
+            </div>
+        </section>
+        
+
+
+    </div>
+    
+</body>
+
+
+</html>
+
+<!-- <script src="sample.js" type="module"></script> -->
+<script src="./components/cart.js"></script>
+
+
+
+
+
+
+
+<!-- <div class="cart-item">
+    <div class="img_desc">
+        <img width="20%" src="img/Fresh_Basket_Logo.jpg" alt="" />
+    </div>
+    <div class="cart-price">
+        <p>&#8377;{search.name}</p>
+    </div>
+    <div class="cart-price">
+        <p>&#8377;{search.Price}</p>
+    </div>
+    <div class="buttons">
+        <i onclick="decrement(${id})" class="fa-solid fa-dash"></i>
+        <div id=${id} class="quantity">&#8377;{item}</div>
+        <i onclick="increment(${id})" class="fa-solid fa-plus"></i>
+    </div>
+    <div>
+        <p>&#8377;0</p>
+    </div>
+    <div>
+        <p>&#8377;{item*search.Price}</p>
+    </div>
+    <div>
+        <i class="fas fa-trash-alt cart-remove"></i>
+    </div>
+</div> -->

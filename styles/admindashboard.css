@@ -1,0 +1,18 @@
+#product_list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+
+}
+img{
+    width: 80%;
+}
+
+#block-2{
+    width: 80%;
+    margin: auto;
+   
+}

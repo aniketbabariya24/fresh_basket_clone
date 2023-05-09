@@ -1,0 +1,122 @@
+#p_method {
+  border: 1px solid rgb(214, 214, 214);
+  width: 40%;
+  height: 400px;
+  margin-right: 30%;
+}
+#c_detail {
+  display: grid;
+  width: 40%;
+  margin-left: -300px;
+  justify-content: center;
+  align-items: center;
+  padding-right: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.p_detail {
+  display: flex;
+
+  border: 0px solid rgb(211, 68, 68);
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+#c_detail {
+  display: grid;
+  width: 25%;
+  height: 500px;
+  border-radius: 10px;
+
+  border: 0px solid blue;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#c_detail input {
+  padding-left: 20px;
+  width: 100%;
+  margin-top: 10px;
+  height: 30px;
+}
+#c_detail input:nth-child(4) {
+  width: 100%;
+}
+#c_detail h5 {
+  margin-top: 20px;
+}
+#c_detail input:nth-child(6) {
+  width: 100%;
+}
+#otp {
+  display: flex;
+
+}
+#otp input {
+  width: 50%;
+
+}
+#otp button {
+  margin-top: 10px;
+}
+
+button {
+  display: inline-block;
+  width: 30%;
+  color: chartreuse;
+}
+
+.p_detail #left {
+  border: 0px solid rgb(224, 19, 19);
+  border-radius: 10px;
+  width: 40%;
+  height: 450px;
+  margin-right: 30%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#left > p {
+  border-bottom: 1px solid rgb(209, 209, 209);
+  height: 60px;
+  margin-left: 40px;
+  font-weight: bolder;
+  cursor: pointer;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+#left > p:hover {
+  color: gray;
+}
+
+#left > h2 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#left > h2 > a {
+  color: rgb(243, 29, 100);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#cardNum {
+  width: 230px;
+}
+
+#pay {
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+  background-color: #63bd4a;
+  margin: auto;
+  border: 0px;
+  margin-top: 50px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+#pay:hover {
+  background-color: rgba(28, 148, 23, 0.833);
+}
